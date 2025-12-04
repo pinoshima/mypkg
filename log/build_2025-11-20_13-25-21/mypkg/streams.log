@@ -1,0 +1,41 @@
+[1.919s] Invoking command in '/home/shima/ros2_ws/src/mypkg': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/shima/ros2_ws/src/mypkg/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shima/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/mypkg build --build-base /home/shima/ros2_ws/src/mypkg/build/mypkg/build install --record /home/shima/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed install_data
+[2.204s] running egg_info
+[2.204s] creating build/mypkg/mypkg.egg-info
+[2.224s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[2.224s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[2.225s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[2.225s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[2.225s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[2.226s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[2.262s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[2.263s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[2.264s] running build
+[2.264s] running build_py
+[2.264s] creating /home/shima/ros2_ws/src/mypkg/build/mypkg/build
+[2.264s] creating /home/shima/ros2_ws/src/mypkg/build/mypkg/build/lib
+[2.265s] creating /home/shima/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[2.265s] copying mypkg/talker.py -> /home/shima/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[2.266s] copying mypkg/listener.py -> /home/shima/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[2.267s] copying mypkg/__init__.py -> /home/shima/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[2.267s] running install
+[2.275s] running install_lib
+[2.292s] creating /home/shima/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg
+[2.293s] copying /home/shima/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/shima/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg
+[2.293s] copying /home/shima/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/shima/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg
+[2.293s] copying /home/shima/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/shima/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg
+[2.294s] byte-compiling /home/shima/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg/talker.py to talker.cpython-312.pyc
+[2.295s] byte-compiling /home/shima/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg/listener.py to listener.cpython-312.pyc
+[2.296s] byte-compiling /home/shima/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg/__init__.py to __init__.cpython-312.pyc
+[2.296s] running install_data
+[2.296s] creating /home/shima/ros2_ws/src/mypkg/install/mypkg/share/ament_index
+[2.296s] creating /home/shima/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index
+[2.297s] creating /home/shima/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[2.297s] copying resource/mypkg -> /home/shima/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[2.297s] copying package.xml -> /home/shima/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[2.297s] running install_egg_info
+[2.317s] Copying build/mypkg/mypkg.egg-info to /home/shima/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg-0.0.0-py3.12.egg-info
+[2.319s] running install_scripts
+[2.450s] Installing listener script to /home/shima/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[2.450s] Installing talker script to /home/shima/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[2.451s] writing list of installed files to '/home/shima/ros2_ws/src/mypkg/build/mypkg/install.log'
+[2.485s] Invoked command in '/home/shima/ros2_ws/src/mypkg' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/shima/ros2_ws/src/mypkg/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shima/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/mypkg build --build-base /home/shima/ros2_ws/src/mypkg/build/mypkg/build install --record /home/shima/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed install_data

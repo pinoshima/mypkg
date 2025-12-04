@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.000730] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.000782] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.099456] (-) TimerEvent: {}
+[0.199911] (-) TimerEvent: {}
+[0.300327] (-) TimerEvent: {}
+[0.400677] (-) TimerEvent: {}
+[0.501041] (-) TimerEvent: {}
+[0.601455] (-) TimerEvent: {}
+[0.701949] (-) TimerEvent: {}
+[0.802390] (-) TimerEvent: {}
+[0.902903] (-) TimerEvent: {}
+[1.003289] (-) TimerEvent: {}
+[1.103670] (-) TimerEvent: {}
+[1.204080] (-) TimerEvent: {}
+[1.304466] (-) TimerEvent: {}
+[1.404793] (-) TimerEvent: {}
+[1.505569] (-) TimerEvent: {}
+[1.606232] (-) TimerEvent: {}
+[1.706630] (-) TimerEvent: {}
+[1.807091] (-) TimerEvent: {}
+[1.907701] (-) TimerEvent: {}
+[1.913679] (mypkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/mypkg', 'build', '--build-base', '/home/shima/ros2_ws/src/mypkg/build/mypkg/build', 'install', '--record', '/home/shima/ros2_ws/src/mypkg/build/mypkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/shima/ros2_ws/src/mypkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'shima', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{a568d450-846d-5c13-8236-4e1a46130bbd}', 'CONDA_BACKUP_QT_XCB_GL_INTEGRATION': '', 'HOME': '/home/shima', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/shima/ros2_ws/src/mypkg/mypkg', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/shima/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shima', 'NAME': 'localhost', 'WSL_INTEROP': '/run/WSL/708_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/home/shima/anaconda3/bin:/home/shima/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/dotnet:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/gnuplot/bin:/mnt/c/Users/ef662/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/ef662/AppData/Local/Programs/Python/Python313:/mnt/c/Users/ef662/AppData/Local/Programs/Python/Launcher:/mnt/c/Users/ef662/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ef662/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ef662/.dotnet/tools:/snap/bin', 'WT_SESSION': '1341800f-d568-4d0c-9c37-e1af5c8332c0', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'QT_XCB_GL_INTEGRATION': 'none', 'GSETTINGS_SCHEMA_DIR': '/home/shima/anaconda3/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/shima/ros2_ws/install/mypkg:/home/shima/ros2_ws/install/hoge:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/shima/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'PWD': '/home/shima/ros2_ws/src/mypkg/build/mypkg', 'CONDA_EXE': '/home/shima/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shima/ros2_ws/src/mypkg/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shima/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages:/home/shima/ros2_ws/install/hoge/lib/python3.12/site-packages:/home/shima/ros2_ws/install/mypkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '/home/shima/anaconda3', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[2.007838] (-) TimerEvent: {}
+[2.108298] (-) TimerEvent: {}
+[2.204262] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.204936] (mypkg) StdoutLine: {'line': b'creating build/mypkg/mypkg.egg-info\n'}
+[2.208414] (-) TimerEvent: {}
+[2.224469] (mypkg) StdoutLine: {'line': b'writing build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[2.225118] (mypkg) StdoutLine: {'line': b'writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[2.225467] (mypkg) StdoutLine: {'line': b'writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[2.225782] (mypkg) StdoutLine: {'line': b'writing requirements to build/mypkg/mypkg.egg-info/requires.txt\n'}
+[2.226074] (mypkg) StdoutLine: {'line': b'writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[2.226343] (mypkg) StdoutLine: {'line': b"writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[2.262907] (mypkg) StdoutLine: {'line': b"reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[2.263894] (mypkg) StdoutLine: {'line': b"writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[2.264480] (mypkg) StdoutLine: {'line': b'running build\n'}
+[2.264616] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[2.264807] (mypkg) StdoutLine: {'line': b'creating /home/shima/ros2_ws/src/mypkg/build/mypkg/build\n'}
+[2.265186] (mypkg) StdoutLine: {'line': b'creating /home/shima/ros2_ws/src/mypkg/build/mypkg/build/lib\n'}
+[2.265603] (mypkg) StdoutLine: {'line': b'creating /home/shima/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg\n'}
+[2.266043] (mypkg) StdoutLine: {'line': b'copying mypkg/talker.py -> /home/shima/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg\n'}
+[2.266902] (mypkg) StdoutLine: {'line': b'copying mypkg/listener.py -> /home/shima/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg\n'}
+[2.267676] (mypkg) StdoutLine: {'line': b'copying mypkg/__init__.py -> /home/shima/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg\n'}
+[2.268127] (mypkg) StdoutLine: {'line': b'running install\n'}
+[2.275551] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.292987] (mypkg) StdoutLine: {'line': b'creating /home/shima/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg\n'}
+[2.293327] (mypkg) StdoutLine: {'line': b'copying /home/shima/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/shima/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg\n'}
+[2.293514] (mypkg) StdoutLine: {'line': b'copying /home/shima/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/shima/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg\n'}
+[2.293763] (mypkg) StdoutLine: {'line': b'copying /home/shima/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/shima/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg\n'}
+[2.294533] (mypkg) StdoutLine: {'line': b'byte-compiling /home/shima/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg/talker.py to talker.cpython-312.pyc\n'}
+[2.295364] (mypkg) StdoutLine: {'line': b'byte-compiling /home/shima/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg/listener.py to listener.cpython-312.pyc\n'}
+[2.296194] (mypkg) StdoutLine: {'line': b'byte-compiling /home/shima/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg/__init__.py to __init__.cpython-312.pyc\n'}
+[2.296555] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[2.296847] (mypkg) StdoutLine: {'line': b'creating /home/shima/ros2_ws/src/mypkg/install/mypkg/share/ament_index\n'}
+[2.297088] (mypkg) StdoutLine: {'line': b'creating /home/shima/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index\n'}
+[2.297573] (mypkg) StdoutLine: {'line': b'creating /home/shima/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages\n'}
+[2.297824] (mypkg) StdoutLine: {'line': b'copying resource/mypkg -> /home/shima/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages\n'}
+[2.298038] (mypkg) StdoutLine: {'line': b'copying package.xml -> /home/shima/ros2_ws/src/mypkg/install/mypkg/share/mypkg\n'}
+[2.298225] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.308611] (-) TimerEvent: {}
+[2.318081] (mypkg) StdoutLine: {'line': b'Copying build/mypkg/mypkg.egg-info to /home/shima/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg-0.0.0-py3.12.egg-info\n'}
+[2.319372] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.408747] (-) TimerEvent: {}
+[2.450714] (mypkg) StdoutLine: {'line': b'Installing listener script to /home/shima/ros2_ws/src/mypkg/install/mypkg/lib/mypkg\n'}
+[2.451109] (mypkg) StdoutLine: {'line': b'Installing talker script to /home/shima/ros2_ws/src/mypkg/install/mypkg/lib/mypkg\n'}
+[2.451699] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/home/shima/ros2_ws/src/mypkg/build/mypkg/install.log'\n"}
+[2.485139] (mypkg) CommandEnded: {'returncode': 0}
+[2.509327] (-) TimerEvent: {}
+[2.520481] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[2.522757] (-) EventReactorShutdown: {}
